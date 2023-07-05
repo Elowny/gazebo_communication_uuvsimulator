@@ -8,3 +8,8 @@ Before using, please make sure you have read and studied the official website of
 
 ## Deep Reinforcement Learning
 We provide a path planning simulation program based on deep reinforcement learning, and provide some classic deep reinforcement learning algorithm programs, users can directly choose an algorithm and run it in gazebo together with the gazebo_env program
+
+## notice：
+If you want to use the sonar function (used by default), please activate sonar with the following command after activating the uuvsimulator environment:
+
+roslaunch uuv_gazebo rexrov_sonar.launch
